@@ -1,0 +1,25 @@
+*{
+    padding: 0;margin: 0;
+}
+body{
+    height:100vh;
+    width: 100vw;
+    background-color: azure;
+    overflow-x: hidden;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+    background-color: white;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    width: 5px;
+    background-color: rgb(143, 164, 164);
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }

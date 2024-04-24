@@ -1,0 +1,116 @@
+ :root{
+    --font-size:18px;
+ }
+ 
+ .xxl{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+} 
+.pdf-template{
+    min-height: calc(1120px * 1) ;
+    height: auto;
+    width: calc(793.7px * 0.95);
+    background-color: rgb(237, 241, 244);
+    border: 1px solid black;
+    padding: 0 calc(793.7px * 0.025);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.pdf-heading{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(89, 89, 89);
+    font-size: 40px;
+    font-weight: 500;
+} 
+
+.logo-date-div{
+    width:100%;
+    height: 120px;
+    display: flex;
+}
+.logo-div{
+    height: 100%;
+    width: 55%;
+}
+.logo{
+    height: 100px;
+    width: 100px;
+    border-radius: 5px;
+}
+.invoice-time-date-number-div{
+    height: 60%;
+    width: 45%;
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    color: rgb(25, 25, 25);
+}
+.invoice-number , .invoice-date , .invoice-time{
+    width: 100%;
+    font-size: var(--font-size);
+}
+.bill-detail{
+    height: 200px;
+    width: 100%;
+    margin-top: 30px;  
+    display: flex;
+    font-size: var(--font-size);
+    color: rgb(0, 0, 0);
+}
+.provider-detail{
+    height: 100%;
+    width: 47%;
+    padding-right:20px ;
+}
+.clint-detail{
+    height: 100%;
+    width: 47%;
+    padding-left:50px ; 
+}
+.bill-detail-exta-padding{
+    padding: 10px 0;
+    font-weight: 600;
+}
+
+
+.pdf-table{
+    height: auto;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 5px;
+    overflow: hidden;
+    color: black;
+}
+.pdf-head-tr{
+    background-color: rgb(227, 225, 225);
+}
+.pdf-body-tr:nth-child(odd) {
+    background-color: white;
+  }
+.pdf-body-tr:nth-child(even) {
+    background-color: rgb(240, 240, 240);
+  }
+
+.pdf-total{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.pdf-total div{
+    height: 50px;
+    width: 35%;
+    padding: 0 10px;
+    background-color: rgb(227, 225, 225);
+    display: flex;
+    align-items: center;
+    border-radius: 3px;
+}

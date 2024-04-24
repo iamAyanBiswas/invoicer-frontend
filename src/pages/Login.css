@@ -1,0 +1,80 @@
+.login-page{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-div{
+    height: 450px;
+    width: 350px;
+    border-radius: 5px;
+    box-shadow: rgba(28, 27, 27, 0.4) 0px 30px 90px;
+}
+.login-input{
+    height: 40px;
+    width: 300px;
+    margin: 10px 15px;
+    border-radius: 3px;
+}
+.eye-img{
+    position: relative;
+    transform: translate(1200% , -200%);
+}
+.login-heading{
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 20px;
+}
+.invalid-user{
+    font-size: 14px;
+    font-weight: 500;
+    color: red;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.login-submit-div{
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.login-submit{
+    height: 40px;
+    width: 150px;
+    padding: 0 4px 0 0;
+    background-color: rgb(34, 142, 127);
+    background-color: rgba(0, 177, 253, 0.735);
+    border-radius: 50px;
+    border: none;
+    color: white;
+    font-size: 20px;
+}
+.after-login-submit-div{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+.after-login-submit-div a{
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(0, 177, 253, 0.735);
+    margin-left: 5px;
+}
+@media only screen and (max-width:400px) {
+    .login-div{
+        transform: scale(0.9);
+    }
+}
+@media only screen and (max-width:350px) {
+    .login-div{
+        transform: scale(0.85);
+    }
+}

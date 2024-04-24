@@ -1,0 +1,51 @@
+.page-history{
+    min-height: 100vh;
+    height: auto;
+    width: 100vw;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.history-nav{
+    display: flex;
+    box-shadow: rgb(92, 91, 91) 0px 0px 5px 0.2px;
+    background-color: rgba(134, 134, 134, 0.148);
+}
+
+.history-nav-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    width: calc(100% - 80px);
+    color: rgb(28, 80, 59);
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.history-component-div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+.history-component{
+    margin-top: 30px;
+    padding: 10px 0 0 10px;
+    min-height: 300px;
+    height: auto;
+    width: 95%;
+    background-color: rgb(253, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 4px;
+    border-radius: 5px;
+}
+.history-component div{
+    margin: 2px 0px 0px 5px;
+}
+.history-table{
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-top: 10px;
+    
+}

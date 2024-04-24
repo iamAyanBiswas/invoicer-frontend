@@ -1,0 +1,27 @@
+.contact-page{
+    height: 100vh;
+    width: 100vw;
+}
+.contact-page-heading{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.contact-page-content{
+    width: 100%;
+    min-height: 200px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 22px;
+
+}
+.contact-page-content a{
+    color: red;
+}

@@ -1,0 +1,10 @@
+input{
+    border: 1px solid black;
+    border: 5px;
+    height: 40px;
+    width: 250px;
+    
+}
+input:hover{
+    border: 2px solid black;
+}

@@ -1,0 +1,39 @@
+ .page-analytics{
+    min-height: 100vh;
+    height: auto;
+    width: 100vw;
+    background-color: rgb(255, 255, 255);
+}
+
+.analytics-nav{
+    display: flex;
+    box-shadow: rgb(92, 91, 91) 0px 0px 5px 0.2px;
+    background-color: rgba(134, 134, 134, 0.148);
+}
+
+.analytics-nav-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    width: calc(100% - 80px);
+    color: rgb(28, 80, 59);
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.line-chart-div-one{
+    height: 550px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+@media only screen and (max-width:500px){
+    .analytics-nav-heading{
+        width: calc(100% - 70px);
+    }
+} 

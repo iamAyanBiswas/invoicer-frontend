@@ -1,0 +1,179 @@
+.invoice-generator-navbar{
+    z-index: 100;
+    background-color: rgb(240, 255, 255);
+    position: sticky; 
+    top: 0; 
+    width: 100%; 
+    transition: top 1s;
+}
+.invoice-generator{
+    height: 100vh;
+    width: 100vw;
+}
+
+.inv-main-div{
+    min-height: 1000px;
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inv-template{
+    min-height: calc(842px * 1.25);
+    height: auto;
+    width: calc(595px * 1.5);
+    margin: 50px 0px;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: rgb(240, 255, 255);
+    box-shadow: rgb(100, 114, 122) 0px 0px 5px 0.1px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.inp-heading{
+    font-size: 50px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image:radial-gradient(rgb(34, 142, 127) 15%, rgb(34, 142, 127) 10%,rgb(25, 104, 93) 20%,rgb(25, 104, 93) 30%, rgb(16, 66, 59) 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.bill-to{
+    padding:0px 20px;
+    height: 70px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+.name-div , .address-div , .mobile-div , .email-div{
+    height: 60px;
+    width: 100%;
+    padding: 0px 10px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+input{
+    height: 40px;
+    width: 350px;
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: rgb(240, 255, 255);
+    padding-left: 20px;
+    font-size: 17px;
+}
+input:focus {
+    border: 2px solid black;
+    background-color: rgb(240, 255, 255);
+  }
+input:hover{
+    box-shadow: rgb(100, 114, 122) 0px 0px 5px 0.1px;
+}
+label{
+    color: red;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.level-IG{
+    display: none;
+}
+#btn-div{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#btn{
+    height: 40px;
+    width: 250px;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    font-size: 17px;
+}
+#btn:hover{
+    font-size: 17.2px;
+}
+
+
+
+
+/***************************************************************************/
+
+
+/************************************************************************/
+
+.pdf-div{
+    display: none;
+    min-height: calc(842px * 1.33);
+    height: auto;
+    width: calc(594px * 1.33);
+    background-color: white;
+    border: 1px solid black;
+}
+.pdf-header{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+.para{
+    font-size: 20px;
+    padding: 10px 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/***********************************************************************/
+
+@media only screen and (max-width: 725px) {
+    .inv-main-div{
+        
+        width: 100vw;
+    }
+    .inv-template{
+        width: 95%;
+    }
+    #Name , #Address , #Email , #Mobile{
+        max-width: 350px;
+        width: 80vw;
+    }
+  }
+
+  @media only screen and (max-width: 500px) {
+    
+    .inp-heading{
+        font-size: 30px;
+    }
+    .inv-template{
+        margin: 10px 0 50px 0;
+    }
+    .bill-to{
+        padding:0px 20px;
+        height: 40px;
+        font-size: 18px;
+    }
+    .invoice-generator-profile{
+        height: 60px;
+    }
+  }

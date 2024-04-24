@@ -1,0 +1,152 @@
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+a:link{
+    color: black;
+}
+a:visited{
+    color: black;
+}
+:root{
+    --invoicer:azure;
+    --isColor: rgb(217, 235, 238);
+    --isColor-hover:rgb(231, 243, 245);
+    --nav-font:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/************************************************************/
+
+.nav-bar {
+    width: 100vw;
+    height: 70px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 18px;
+    background-color: azure;
+    box-shadow: rgb(92, 91, 91) 0px 0px 5px 0.2px;
+    font-family: var(--nav-font);
+}
+.nav-bar li{
+    height: 100%;
+    padding: 0 30px;
+    background-color: var(--isColor);
+}
+.nav-bar li:hover{
+    background-color: var(--isColor-hover);
+}
+.nav-bar li a{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.nav-bar .invoicer{
+    font-size: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-right: auto;
+    background-color: var(--invoicer);
+}
+.invoicer a:link{
+    color:rgb(81, 88, 95);
+}
+.invoicer a:visited{
+    color: rgb(81, 88, 95);
+}
+.nav-bar .invoicer:hover{
+    background-color: var(--invoicer);
+}
+
+/************************************************************/
+
+.side-bar{
+    position: fixed;
+    top: 0; 
+    left: 0;
+    height: 100vh;
+    width: 250px;
+    background-color: var(--isColor);
+    box-shadow: rgb(193, 196, 199) 0px 0px 110px 1px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.side-bar li{
+    width: 80%;
+    height: 10%;
+    padding: 0 10%;
+    font-size: 20px;
+    background-color: var(--isColor);
+    display: flex;
+    align-items: center;
+}
+.side-bar li:hover{
+    background-color: var(--isColor-hover);
+}
+
+/******************************************************************************/
+
+.mob-nav-bar{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    box-shadow: rgb(92, 91, 91) 0px 0px 5px 0.2px;
+}
+
+.mob-nav-bar .mob-invoicer{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--invoicer);
+}
+.mob-invoicer a:link{
+    color:rgb(81, 88, 95);
+}
+.mob-invoicer a:visited{
+    color: rgb(81, 88, 95);
+}
+
+
+/*********************************************************************/
+/*********************************************************************/
+
+
+@media only screen and (min-width:725px){
+    .side-bar{
+        display: none;
+    }
+    .openx{
+        display: none;
+    }
+    .mob-nav-bar{
+        display: none;
+    }
+}
+
+
+
+@media only screen and (max-width:725px){
+   
+    .side-bar{
+        display: none;
+    }
+    .nav-bar{
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width:450px){
+   
+    .mob-nav-bar .mob-invoicer{
+        font-size: 30px;
+    }
+}

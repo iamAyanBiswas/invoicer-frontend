@@ -1,0 +1,65 @@
+.profile-div{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.profile-div-pic{
+    height: 50px;
+    width: 62px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.profile-pic{
+    background-color: rgb(240, 234, 235);
+    border-radius: 3000px;
+    border: 2px solid rgb(0, 0, 0);
+    margin-right: 10px;
+}
+
+.profile-div div span{
+    height: 10px;
+    width: 100%;
+    margin-left: 10px;
+    font-size: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.profile-div-pic-hover{
+    height: 300px;
+    width: 200px;
+    padding: 0 50px;
+    background-color: rgb(229, 242, 242);
+    border-radius: 15px;
+    z-index: 1000;
+    visibility: hidden;
+    transform: translate(-10px , -30px);
+}
+.profile-div-pic-hover div{
+    height: 30px;
+    padding-top: 20px;
+    width: 150px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+}
+.profile-div-pic-hover div:hover{
+    cursor: pointer;
+}
+
+.profile-div-pic:hover .profile-div-pic-hover{
+cursor: pointer;
+visibility: visible;
+z-index: 100;
+}
+
+@media only screen and (max-width:500px){
+    .profile-div-pic{
+        transform: scale(0.65);
+    }
+}
