@@ -25,11 +25,11 @@ npm install
 
 
 ## Features
-- • React.js is used for frontend and React-Redux is used for global state management.
-- • Users can generate invoices for their customers in PDF format.
-- • Users will have access to a complete invoice generation history .
-- • Users will receive comprehensive tracking of their daily, weekly, and monthly sales .
-- • React-google-charts is used for graphical representation of data.
+-  React.js is used for frontend and React-Redux is used for global state management.
+-  Users can generate invoices for their customers in PDF format.
+-  Users will have access to a complete invoice generation history .
+-  Users will receive comprehensive tracking of their daily, weekly, and monthly sales .
+-  React-google-charts is used for graphical representation of data.
 
 
 
@@ -73,5 +73,5 @@ We welcome contributions! If you’d like to contribute:
 
 
 ## License
-`invoicer-backend` by `iamAyanBiswas`(Ayan Biswas) is under MIT License. <br>
+`invoicer-frontend` by `iamAyanBiswas`(Ayan Biswas) is under MIT License. <br>
 Happy documenting! 😊🚀
