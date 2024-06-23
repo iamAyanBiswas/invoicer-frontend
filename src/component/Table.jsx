@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useDispatch } from "react-redux";
 import { makeInvoice } from "../features/InvData";
-// import { makeInvoice } from "../redux/invoiceData";
 import './Table.css'
 import Pdf from "./Pdf";
 function Table() {
