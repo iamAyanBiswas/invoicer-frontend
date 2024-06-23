@@ -3,6 +3,7 @@ import { useDispatch } from "react-redux";
 import { makeInvoice } from "../features/InvData";
 import './Table.css'
 import Pdf from "./Pdf";
+
 function Table() {
     const dispatch=useDispatch()
 
