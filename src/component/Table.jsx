@@ -36,9 +36,6 @@ function Table() {
 
 
 
-
-
-
     return (
         <>
             <div>
